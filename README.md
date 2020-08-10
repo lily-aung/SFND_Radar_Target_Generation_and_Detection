@@ -80,7 +80,7 @@ axis ([0 200 0 0.5]);
 xlabel('measured range');
 
 ```
-<img src="images/results/Figure1-Range from First FFT.png">
+<img src="results/Figure1-Range from First FFT.png">
 
 
 * doppler FFT (2st FFT)
