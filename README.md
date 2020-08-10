@@ -80,7 +80,8 @@ axis ([0 200 0 0.5]);
 xlabel('measured range');
 
 ```
-![Range from First FFT](results/Figure1-Range from First FFT.fig)
+![Range from First FFT](results/Figure1-Range from First FFT.png)
+
 
 * doppler FFT (2st FFT)
 
@@ -102,7 +103,7 @@ range_axis = linspace(-200,200,Nr/2)*((Nr/2)/400);
 figure('Name','2D FFT Range Doppler Map');
 surf(doppler_axis,range_axis,RDM);
 ```
-![2D FFT Range Doppler Map](results/Figure2-2D FFT Range Doppler Map.fig)
+![2D FFT Range Doppler Map](results/Figure2-2D FFT Range Doppler Map.png)
 
 #### CRITERIA 4. 2D CFAR Implementation
 
@@ -165,4 +166,4 @@ Add the offset to it to determine the SNR threshold.
 
 
 
-![2D CA-CFAR Filtered RDM](results/Figure3-2D CA-CFAR Filtered RDM.fig)
+![2D CA-CFAR Filtered RDM](results/Figure3-2D CA-CFAR Filtered RDM.png)
