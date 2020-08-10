@@ -66,7 +66,7 @@ for i=1:L
 end
 ```
 
-#### CRITERIA 3. Range FFT (1st FFT)
+#### CRITERIA 3. Range FFT (1st FFT) - Range from First FFT
 
 ```Matlab
 sig_fft = fft(Mix,Nr)./Nr;
@@ -80,7 +80,9 @@ axis ([0 200 0 0.5]);
 xlabel('measured range');
 
 ```
-[[results/Figure1-Range from First FFT.png|Range from First FFT]]
+[Range from First FFT] (results/Figure1-Range from First FFT.png "Range from First FFT")
+
+
 
 
 * doppler FFT (2st FFT)
