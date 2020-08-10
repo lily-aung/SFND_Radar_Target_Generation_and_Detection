@@ -66,7 +66,7 @@ for i=1:L
 end
 ```
 
-#### CRITERIA 3. Range FFT (1st FFT) - Range from First FFT
+#### CRITERIA 3. Range FFT (1st FFT) 
 
 ```Matlab
 sig_fft = fft(Mix,Nr)./Nr;
