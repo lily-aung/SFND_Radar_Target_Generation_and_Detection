@@ -103,7 +103,8 @@ range_axis = linspace(-200,200,Nr/2)*((Nr/2)/400);
 figure('Name','2D FFT Range Doppler Map');
 surf(doppler_axis,range_axis,RDM);
 ```
-[[results/Figure2-2D FFT Range Doppler Map.png|2D FFT Range Doppler Map]]
+
+![2D FFT Range Doppler Map](results/Figure2-2D FFT Range Doppler Map.png)
 
 #### CRITERIA 4. 2D CFAR Implementation
 
