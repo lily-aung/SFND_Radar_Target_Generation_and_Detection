@@ -1,5 +1,6 @@
 # SFND Radar Target Generation and Detection
-Report  - Writeup
+
+## Report  - Writeup
 
 This project uses Matlab to introduce frequency modulated continuous-wave (FMCW) radar and related post-processing techniques. The topics covered include:
 1) Fast Fourier transforms (FFT) and 2D FFT
